@@ -2,21 +2,21 @@ package area
 
 import "math"
 
-// Pi È uma proporÁ„o numÈrica definida pela relaÁ„o entre
-// o perÌmetro de uma circunferÍncia e seu di‚metro (Maiusculo => publico)
+// Pi √© uma propor√ß√£o num√©rica definida pela rela√ß√£o entre
+// o per√¢metro de uma circunfer√™ncia e seu diametro (Maiusculo => publico)
 const Pi = 3.1416
 
-// Circ È respons·vel por calcular a ·rea da circuferÍncia
+// Circ √© respons√°vel por calcular a √°rea da circuferencia
 func Circ(raio float64) float64 {
 	return math.Pow(raio, 2) * Pi
 }
 
-// Rect È respons·vel por calcular a ·rea de um retangulo
+// Rect √© respons√°vel por calcular a √°rea de um retangulo
 func Rect(base, altura float64) float64 {
 	return base * altura
 }
 
-// N„o È visÌvel (minusculo È privado)
+// N√£o √© vis√≠vel (minusculo √© privado)
 func _TrianguloEq(base, altura float64) float64 {
 	return (base * altura) / 2
 }
