@@ -16,7 +16,7 @@ func Rect(base, altura float64) float64 {
 	return base * altura
 }
 
-// _TrianguloEq Não é visível (minusculo é privado)
-func _TrianguloEq(base, altura float64) float64 {
+// TrianguloEq é visível (minusculo é privado)
+func TrianguloEq(base, altura float64) float64 {
 	return (base * altura) / 2
 }
